@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre Latorse | Portfolio</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="icon" href="../src/assets/LogoWebsite.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="relative z-0 bg-primary">
+        <div class="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+            <!-- Navbar -->
+            <nav class="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-primary">
+                <div class="w-full flex justify-between items-center max-w-7xl mx-auto">
+                    <a href="#" class="flex items-center gap-2">
+                        <img src="../src/assets/LogoWebsite.png" alt="logo" class="w-9 h-9 object-contain" />
+                        <p class="text-white text-[18px] font-bold cursor-pointer flex">Pierre Latorse &nbsp; <span
+                                class="sm:block hidden text">| IT engineer student </span></p>
+                    </a>
+
+                    <ul class="list-none hidden sm:flex flex-row gap-10">
+                        <li
+                            class="text-secondary active:text-white hover:text-white text-[18px] font-medium cursor-pointer">
+                            <a href="#about">About</a>
+                        </li>
+                        <li
+                            class="text-secondary active:text-white hover:text-white text-[18px] font-medium cursor-pointer">
+                            <a href="#work">Work</a>
+                        </li>
+                        <li
+                            class="text-secondary active:text-white hover:text-white text-[18px] font-medium cursor-pointer">
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li
+                            class="text-secondary active:text-white hover:text-white text-[18px] font-medium cursor-pointer">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="sm:hidden flex flex-1 justify-end items-center">
+                        <img src="menu.png" alt="menu" class="w-[28px] h-[28px] object-contain cursor-pointer" />
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero -->
+            <section class="relative w-full h-screen mx-auto">
+                <div
+                    class="sm:px-16 px-6 absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5">
+                    <div class="flex flex-col justify-center items-center mt-5">
+                        <div class="w-5 h-5 rounded-full bg-[#915eff]"></div>
+                        <div class="w-1 sm:h-80 h-40 violet-gradient"></div>
+                    </div>
+
+                    <div>
+                        <h1
+                            class="font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">
+                            Hi, I'm<br><span class="text-purple-600">Pierre Latorse</span></h1>
+                        <p
+                            class="text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] text-xl mt-2">
+                            I love developping video games, <br class="sm:block hidden" /> VR solutions and web
+                            applications.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+                    <a href="#about">
+                        <div class="w-9 h-16 rounded-3xl border-4 border-gray-400 flex justify-center items-start p-2">
+                            <div class="w-3 h-3 rounded-full bg-gray-400 mb-1"></div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <!-- About -->
+        <div id="about" class="anchor-offset"></div>
+        <section class="relative sm:w-[1150px] mx-auto">
+            <h2 class="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Overview.</h2>
+
+            <p class="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+                I am a French student in computer science at CESI Bordeaux, and a skilled video game developer with
+                experience in 2 of the most used engines : Unity and Unreal Engine 5. I am also a huge fan of
+                programming languages such as C, C#, C++, as well as creating websites like this one with the help of
+                many frameworks. I am a quick learner and often work on my missions by team to create efficient,
+                scalable, and user-friendly games, as well as making solutions that solve real-world problems. Let's
+                work together to create innovative and memorable solutions for users !
+            </p>
+
+            <a href="../src/assets/Resume.pdf" target="_blank">
+                <button
+                    class="flex items-center justify-center bg-purple-800 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded mt-5">
+                    <p>See my Resume here!</p>
+                </button>
+            </a>
+
+            <div class="mt-20 flex flex-wrap gap-10">
+                <!-- Repeat this div for each service -->
+                <div class="w-full sm:w-64 green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                    <div
+                        class="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                        <img src="../src/assets/service/VideoGameDeveloper.png" alt="web-development"
+                            class="w-32 h-32 object-contain">
+                        <h3 class="text-white text-[20px] font-bold text-center">Game Developer</h3>
+                    </div>
+                </div>
+                <div class="w-full sm:w-64 green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                    <div
+                        class="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                        <img src="../src/assets/service/VR.png" alt="web-development" class="w-32 h-32 object-contain">
+                        <h3 class="text-white text-[20px] font-bold text-center">VR Game Developer</h3>
+                    </div>
+                </div>
+                <div class="w-full sm:w-64 green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                    <div
+                        class="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                        <img src="../src/assets/service/WebDeveloper.png" alt="web-development"
+                            class="w-32 h-32 object-contain">
+                        <h3 class="text-white text-[20px] font-bold text-center">Web developer</h3>
+                    </div>
+                </div>
+                <div class="w-full sm:w-64 green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                    <div
+                        class="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                        <img src="../src/assets/service/SoftwareDeveloper.png" alt="web-development"
+                            class="w-32 h-32 object-contain">
+                        <h3 class="text-white text-[20px] font-bold text-center">Software Developer</h3>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="mt-20 text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">My hobbies.
+            </h2>
+
+            <p class="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+                Video games, sports, and music are the pillars of my passions, each bringing a unique and enriching
+                experience to my life. Collectively, these passions enrich my life in countless ways. They bring me joy,
+                teach me valuable lessons, and provide a means of connection with others who share similar interests.
+                They challenge me, inspire me, and allow me to discover new facets of myself. Through video games,
+                sports, and music, I find a sense of purpose, fulfillment, and a never-ending source of excitement.
+            </p>
+
+            <div class="mt-20 flex flex-wrap gap-10">
+                <!-- Repeat this div for each hobby -->
+                <div class="w-full sm:w-64 green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                    <div
+                        class="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                        <img src="../src/assets/hobbie/videogames.png" alt="web-development"
+                            class="w-32 h-32 object-contain">
+                        <h3 class="text-white text-[20px] font-bold text-center">Video Games</h3>
+                        <p class="text-xs text-center">Love playing video games as well as creating them.</p>
+                    </div>
+                </div>
+                <div class="w-full sm:w-64 green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                    <div
+                        class="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                        <img src="../src/assets/hobbie/bass.png" alt="web-development" class="w-32 h-32 object-contain">
+                        <h3 class="text-white text-[20px] font-bold text-center">Music</h3>
+                        <p class="text-xs text-center">I have been learning how to play bass by myself for 5 years.</p>
+                    </div>
+                </div>
+                <div class="w-full sm:w-64 green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                    <div
+                        class="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+                        <img src="../src/assets/hobbie/climbing.png" alt="web-development"
+                            class="w-32 h-32 object-contain">
+                        <h3 class="text-white text-[20px] font-bold text-center">Sports</h3>
+                        <p class="text-xs text-center">I practiced Fencing and Rifle Shooting for 6 years each at a
+                            national level. Since 2020, I practice boulder climbing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiences -->
+        <div id="work" style="display: block; height: 40px; margin-top: 8rem; visibility: hidden;"></div>
+        <section class="py-10 container mt-9 mx-auto px-5">
+            <p class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider text-center">
+                What I have done so far
+            </p>
+            <h2 class="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center" }>
+                Work Experience.
+            </h2>
+            <div class="flex flex-col items-center w-full relative">
+                <!-- Timeline line -->
+                <div class="absolute h-full border-l-4 border-gray-300" style="left: calc(50% - 2px);"></div>
+
+                <!-- Timeline item -->
+                <div class="flex w-3/4 my-2">
+                    <!-- Timeline point with icon -->
+                    <div
+                        class="flex flex-col items-center flex-grow-0 flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full text-white z-10 relative">
+                        <i class="fas fa-briefcase mt-3"></i>
+                    </div>
+                    <!-- Timeline content -->
+                    <div class="ml-8 bg-gray-200 p-4 rounded-lg w-full">
+                        <h3 class="font-bold">Job Title</h3>
+                        <p>Company Name</p>
+                    </div>
+                    <!-- Timeline date -->
+                    <div class="ml-8 text-gray-500">
+                        <p>Start Date - End Date</p>
+                    </div>
+                </div>
+
+                <!-- Timeline item -->
+                <div class="flex w-3/4 my-2 flex-row-reverse">
+                    <!-- Timeline point with icon -->
+                    <div
+                        class="flex flex-col items-center flex-grow-0 flex-shrink-0 w-12 h-12 bg-blue-500 rounded-full text-white z-10 relative">
+                        <i class="fas fa-school mt-3"></i>
+                    </div>
+                    <!-- Timeline content -->
+                    <div class="mr-8 bg-gray-200 p-4 rounded-lg w-full">
+                        <h3 class="font-bold">Degree Name</h3>
+                        <p>University Name</p>
+                    </div>
+                    <!-- Timeline date -->
+                    <div class="mr-8 text-gray-500">
+                        <p>Start Date - End Date</p>
+                    </div>
+                </div>
+
+                <!-- Continue alternating timeline items as needed -->
+            </div>
+        </section>
+
+        <!-- Tech -->
+        <section>
+            <div class="flex flex-col items-center mt-40">
+                <p class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+                    Technologies I use
+                </p>
+                <h2 class="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+                    Technologies.
+                </h2>
+                <div class="flex flex-wrap justify-center gap-10 mt-10 mx-auto sm:w-[1150px]">
+                    <!-- Repeat this div for each technology -->
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/Unity.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/UnrealEngine.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/Clanguages.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/MySQL.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/HtmlCssJs.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/Python.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/VueJS.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/reactjs.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/tailwind.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/threejs.svg" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/git.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/figma.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                    <div class="green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+                        <div
+                            class="flex flex-col items-center bg-tertiary rounded-[20px] p-4 shadow-lg transform transition-transform duration-250 hover:scale-110">
+                            <img src="../src/assets/tech/docker.png" alt="unity" class="w-24 h-24 object-contain">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <div id="projects" style="display: block; height: 40px; margin-top: 8rem; visibility: hidden;"></div>
+        <section>
+            <div class="relative sm:w-[1150px] mx-auto mt-16">
+                <p class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
+                    What I have done
+                </p>
+                <h2 class="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+                    Projects.
+                </h2>
+                <div class="w-full flex">
+                    <p class="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+                        Following projects showcases my skills and experience through real-world examples of my work.
+                        Each project is briefly described with links to code repositories and live demos in it. It
+                        reflects my ability to solve complex problems, work with different technologies, and manage
+                        projects effectively.
+                    </p>
+                </div>
+
+                <div class="mt-20 flex flex-wrap gap-7">
+                    <!-- Repeat this div for each project -->
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Daimon.png" alt="Daimon"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <!-- <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://github.com/samuellllllllllll/Daimon/tree/V0.1" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/github.png" alt="github" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div> -->
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Daimon
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                2D narrative RPG video game project, strongly inspired by Undertale by Toby Fox, in
+                                production on Unity.
+                            </p>
+                            <br />
+                            <a href="https://saizucorp.itch.io/daimon" target="_blank" class="underline">Click here to test!</a>
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Unity
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                C#
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                2D Top Down
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/VirtualLab.png" alt="VirtualLab"
+                                class="w-full h-full object-cover rounded-2xl">
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Virtual Lab
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                A Virtual Reality game about laboratory experiences made for meta quest 2 and 3 on
+                                Unity. In this game, you will have to complete quests following the narrator
+                                instructions.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Unity
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                C#
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                VR
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Portfolio.png" alt="Portfolio"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://github.com/Ev0gs/Portfolio" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/github.png" alt="github" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Portfolio website
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                A website working as a portfolio to show my skills in web development as well as video
+                                game development with some 3D models integration with Three JS.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Vite
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                React JS & Three JS
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                Tailwind CSS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Archiviz.png" alt="Archiviz"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://gitlab.com/Ev0gs/archiviz-vr" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/gitlab.png" alt="gitlab" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Archiviz VR
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                Realistic architectural visualization project in virtual reality developed on Unreal
+                                Engine 5.1 for Meta Quest 2 during my internship at Scissors In The Plug.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                UE5.1
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                Blueprints
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                3D / VR
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Will.png" alt="Will"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://gitlab.com/Ev0gs/will.exe" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/gitlab.png" alt="gitlab" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Will.exe
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                Horrific narrative puzzle game project in collaboration with a narrative designer,
+                                developed on Unity. In this game the character will realize little by little he is
+                                controlled by the player and will try to break the 4th wall.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Unity
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                C#
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                3D / 2D / Puzzle
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/LGB.png" alt="LGB"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://gitlab.com/Ev0gs/LaGrosseBertha" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/gitlab.png" alt="gitlab" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                La Grosse Bertha
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                2D multiplayer video game based on a tower defense gameplay where the main goal is to
+                                destroy the opponent's cannon 'Grosse Bertha' with our own while gaining part of the
+                                battlefield little by little.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Unity
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                C#
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                Multiplayer - 2D
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Protech.png" alt="Protech"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://gitlab.com/Ev0gs/protech-securite" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/gitlab.png" alt="gitlab" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Protech Sécurité
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                3D object demonstrator for the bulletproof carpentry company ProTech Securité which
+                                wanted to be able to visualize their new product and present it on a tablet to future
+                                customers.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Unity
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                C#
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                Android - 3D
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Platformer.png" alt="Platformer"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://github.com/Ev0gs/Unity-FirstPlatformer" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/github.png" alt="github" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Platformer Project
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                2D platformer video game in which gameplay mechanics are based on those of a platformer
+                                where the player embodies a knight who must reach the end of the level like a game of
+                                the Mario Bros license.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Unity
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                C#
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                2D platformer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Findux.png" alt="Findux"
+                                class="w-full h-full object-cover rounded-2xl">
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Findux v2
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                Monitoring web application based on the django framework using Python language, and on
+                                VueJS framework using HTML, CSS & Javascript. The goal of this project was to help the
+                                integration and supervision department on their mission by delivering a realtime
+                                monitoring app & automate applications integration in the metropolis of Bordeaux based
+                                on GitLab pipelines.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                VueJS
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                Django (Python)
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                GitLab
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/Nternship.png" alt="Nternship"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://github.com/Ev0gs/Nternship" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/github.png" alt="github" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Nternship
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                Internship research application, such as job search websites, based on web languages
+                                (HTML, CSS, PHP, javascript) and a link to a database via the use of phpMyAdmin. The
+                                goal of this project was to help my school providing a website for students struggling
+                                to find an internship. This website contains some offers for students and they can apply
+                                to them depending on its location and what he is searching.
+                            </p>
+                            <br />
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Web fullstack
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                PHP
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                SQL
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+                        <div class="relative w-full h-[230px]">
+                            <img src="../src/assets/project/InventoryManager.png" alt="InventoryManager"
+                                class="w-full h-full object-cover rounded-2xl">
+                            <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
+                                <a target="_blank" href="https://github.com/Ev0gs/OOP-Project" class="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                    <img src="../src/assets/github.png" alt="github" class="w-1/2 h-1/2 object-contain">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h3 class="text-white font-bold text-[24px]">
+                                Inventory Manager
+                            </h3>
+                            <p class="mt-2 text-secondary text-[14px]">
+                                Store inventory manager project based on SQL queries made with C++ on a MySQL database.
+                                The goal of this project was to provide an application to a store in order to visualise
+                                product quantities and many other aspects related to their inventory.
+                            </p>
+                            <br />
+                            <a href="#" target="_blank" class="underline">View Project</a>
+                        </div>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <p class="text-[14px] blue-text-gradient">
+                                Windows Form
+                            </p>
+                            <p class="text-[14px] green-text-gradient">
+                                C++
+                            </p>
+                            <p class="text-[14px] pink-text-gradient">
+                                SQL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="flex justify-center">
+            <div class="mt-44 mb-24 relative sm:w-[1150px] bg-black-100 rounded-[20px]">
+                <div class="bg-tertiary rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[300px]">
+                    <div>
+                        <p class="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">What others say
+                        </p>
+                        <h2 class="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+                            Testimonials.</h2>
+                    </div>
+                </div>
+                <div class="-mt-20 pb-14 sm:px-16 px-6 flex flex-wrap gap-7">
+                    <!-- Repeat this div for each testimonial -->
+                    <div class="bg-black-200 p-10 rounded-3xl xs:w-[320px] sm:w-[320px]">
+                        <p class="text-white font-black text-[48px]">"</p>
+
+                        <div class="mt-1">
+                            <p class="text-white tracking-wider text-[18px]">Pierre demonstrated exceptional skills,
+                                including game design and programming in the Unity engine, as well as project management
+                                and sprint planning with agile methodologies. His commitment and engagement consistently
+                                surpassed expectations.</p>
+
+                            <div class="mt-7 flex justify-between items-center gap-1">
+                                <div class="flex-1 flex flex-col">
+                                    <p class="text-white font-medium text-[16px]">
+                                        <span class="blue-text-gradient">@</span> Dennis Briddigkeit
+                                    </p>
+                                    <p class="mt-1 text-secondary text-[12px]">
+                                        Managing Director & Co-founder of Curvature Games
+                                    </p>
+                                </div>
+
+                                <img src="../src/assets/company/CurvatureGamesLogo.jpeg" alt="CurvatureGamesLogo"
+                                    class="w-10 h-10 rounded-full object-cover" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-black-200 p-10 rounded-3xl xs:w-[320px] sm:w-[320px]">
+                        <p class="text-white font-black text-[48px]">"</p>
+
+                        <div class="mt-1">
+                            <p class="text-white tracking-wider text-[18px]">Pierre developed a talent for understanding
+                                what a game is all about. Either technically, humanly, financially or from a game design
+                                point of view. I have complete confidence in him for the position of video game
+                                developer or the position of IT engineer.</p>
+
+                            <div class="mt-7 flex justify-between items-center gap-1">
+                                <div class="flex-1 flex flex-col">
+                                    <p class="text-white font-medium text-[16px]">
+                                        <span class="blue-text-gradient">@</span> Benjamin Coudannes
+                                    </p>
+                                    <p class="mt-1 text-secondary text-[12px]">
+                                        CTO of Scissors In The Plug
+                                    </p>
+                                </div>
+
+                                <img src="../src/assets/company/ScissorsInThePlug.png" alt=ScissorsInThePlugLogo
+                                    class="w-10 h-10 rounded-full object-cover" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-black-200 p-10 rounded-3xl xs:w-[320px] sm:w-[320px]">
+                        <p class="text-white font-black text-[48px]">"</p>
+
+                        <div class="mt-1">
+                            <p class="text-white tracking-wider text-[18px]">Serious, punctual and endowed with a team
+                                spirit facilitating his integration within the team, these qualities testify to his
+                                voluntary attitude and allow him to adopt new working methods with ease.</p>
+
+                            <div class="mt-7 flex justify-between items-center gap-1">
+                                <div class="flex-1 flex flex-col">
+                                    <p class="text-white font-medium text-[16px]">
+                                        <span class="blue-text-gradient">@</span> Olivier Delbosc
+                                    </p>
+                                    <p class="mt-1 text-secondary text-[12px]">
+                                        Integration Engineer of Bordeaux Métropole
+                                    </p>
+                                </div>
+
+                                <img src="../src/assets/company/BordeauxMetropole.png" alt=BordeauxMetropoleLogo
+                                    class="w-10 h-10 rounded-full object-cover" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer container-->
+        <footer id="contact" class="flex flex-col items-center bg-tertiary text-center text-surface text-white">
+            <div class="container px-6 pt-6">
+                <!-- Social media icons container -->
+                <div class="mb-6 flex justify-center space-x-2">
+
+                    <a href="mailto:pierre.latorse@viacesi.fr" type="button"
+                        class="rounded-full bg-[#dd4b39] p-3 uppercase leading-normal text-white shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:text-white"
+                        data-twe-ripple-init data-twe-ripple-color="light">
+                        <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ffffff"
+                                    d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <a href="https://www.instagram.com/pierre.ltrs/" target="_blank" type="button"
+                        class="rounded-full bg-[#ac2bac] p-3 uppercase leading-normal text-white shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:text-white"
+                        data-twe-ripple-init data-twe-ripple-color="light">
+                        <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/pierre-latorse-968242171/" target="_blank" type="button"
+                        class="rounded-full bg-[#0082ca] p-3 uppercase leading-normal text-white shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:text-white"
+                        data-twe-ripple-init data-twe-ripple-color="light">
+                        <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <a href="https://github.com/Ev0gs" target="_blank" type="button"
+                        class="rounded-full bg-[#333333] p-3 uppercase leading-normal text-white shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:text-white"
+                        data-twe-ripple-init data-twe-ripple-color="light">
+                        <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Copyright section -->
+            <div class="w-full bg-black-100 p-4 text-center">
+                © 2023 Copyright: All rights reserved.
+                <!-- <a href="https://tw-elements.com/">TW Elements</a> -->
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
