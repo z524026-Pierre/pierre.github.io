@@ -763,10 +763,6 @@ video {
   height: 230px;
 }
 
-.h-\[28px\]{
-  height: 28px;
-}
-
 .h-full{
   height: 100%;
 }
@@ -815,10 +811,6 @@ video {
   width: 2.25rem;
 }
 
-.w-\[28px\]{
-  width: 28px;
-}
-
 .w-full{
   width: 100%;
 }
@@ -829,6 +821,10 @@ video {
 
 .max-w-7xl{
   max-width: 80rem;
+}
+
+.max-w-\[1150px\]{
+  max-width: 1150px;
 }
 
 .flex-1{
@@ -1235,6 +1231,66 @@ video {
 body {
   scroll-padding-top: 70px;
   /* height of navbar */
+}
+
+/* Hide the dropdown menu and the close menu button by default */
+
+#dropdown-menu, #menu-icon-close {
+  display: none;
+}
+
+/* Show the dropdown menu and the close menu button when the checkbox is checked */
+
+#menu-toggle:checked ~ label > #menu-icon-close,
+#menu-toggle:checked ~ #dropdown-menu {
+  display: block;
+}
+
+/* Hide the open menu button when the checkbox is checked */
+
+#menu-toggle:checked ~ label > #menu-icon-open {
+  display: none;
+}
+
+/* Ensure the dropdown menu is styled properly */
+
+#dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #0a0f27;
+  /* Adjust the background color as needed */
+  box-shadow: 0 4px 8px #0a0f27;
+  /* Optional shadow for dropdown */
+  width: 200px;
+  /* Adjust width as needed */
+  z-index: 1000;
+  /* Ensure it is above other content */
+}
+
+#dropdown-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#dropdown-menu li {
+  padding: 10px 15px;
+  /* Adjust padding as needed */
+}
+
+#dropdown-menu li a {
+  text-decoration: none;
+  color: #AAA6C3;
+  /* Adjust text color as needed */
+  display: block;
+  margin-bottom: 10px;
+}
+
+#dropdown-menu li a:hover {
+  text-decoration: none;
+  color: #d5d4df;
+  /* Adjust text color as needed */
+  display: block;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -1739,14 +1795,6 @@ a:hover img.transition-img {
     display: block;
   }
 
-  .sm\:flex{
-    display: flex;
-  }
-
-  .sm\:hidden{
-    display: none;
-  }
-
   .sm\:h-80{
     height: 20rem;
   }
@@ -1795,12 +1843,29 @@ a:hover img.transition-img {
 }
 
 @media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
   .md\:text-\[60px\]{
     font-size: 60px;
   }
 }
 
 @media (min-width: 1024px){
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .lg\:text-\[30px\]{
     font-size: 30px;
   }

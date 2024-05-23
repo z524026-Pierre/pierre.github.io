@@ -13,9 +13,58 @@
   color-scheme: dark;
 }
 
+
 body {
-  scroll-padding-top: 70px;
-  /* height of navbar */
+  scroll-padding-top: 70px; /* height of navbar */
+}
+
+/* Hide the dropdown menu and the close menu button by default */
+#dropdown-menu, #menu-icon-close {
+  display: none;
+}
+
+/* Show the dropdown menu and the close menu button when the checkbox is checked */
+#menu-toggle:checked ~ label > #menu-icon-close,
+#menu-toggle:checked ~ #dropdown-menu {
+  display: block;
+}
+
+/* Hide the open menu button when the checkbox is checked */
+#menu-toggle:checked ~ label > #menu-icon-open {
+  display: none;
+}
+
+/* Ensure the dropdown menu is styled properly */
+#dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #0a0f27; /* Adjust the background color as needed */
+  box-shadow: 0 4px 8px #0a0f27; /* Optional shadow for dropdown */
+  width: 200px; /* Adjust width as needed */
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+#dropdown-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#dropdown-menu li {
+  padding: 10px 15px; /* Adjust padding as needed */
+}
+
+#dropdown-menu li a {
+  text-decoration: none;
+  color: #AAA6C3; /* Adjust text color as needed */
+  display: block;
+  margin-bottom: 10px;
+}
+
+#dropdown-menu li a:hover {
+  text-decoration: none;
+  color: #d5d4df; /* Adjust text color as needed */
+  display: block;
 }
 
 /* The actual timeline (the vertical ruler) */
