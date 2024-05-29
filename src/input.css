@@ -464,6 +464,10 @@ a:hover img.transition-img {
   transform: translateZ(0);
 }
 
+.inverted-image {
+  filter: invert(1);
+}
+
 @keyframes mulShdSpin {
 
   0%,
